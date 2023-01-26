@@ -1,6 +1,44 @@
+/*основной цвет заголовков #2E2F42;*/
+/*другорядний текст #434455*/
+/*фон */
+
+
+
+
+
+
+
+
 body {
     font-family: 'Roboto', sans-serif;
     color: #2E2F42;
+    list-style: none;
+}
+
+.logo > span {
+    font-family: 'Raleway';
+    font-size: 18px;
+    line-height: 1.16;
+    color: #4D5AE5;
+}
+
+.logo {
+    font-family: 'Raleway';
+    font-size: 18px;
+    line-height: 1.16;
+    color: #2E2F42;
+}
+
+.nav-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #2E2F42;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #404BBF;
 }
 
 .nav-link:active {
@@ -11,10 +49,114 @@ body {
     color: #434455;
 }
 
-.address-link:hover {
-    color: #404BBF;
-}
-
+.address-link:hover,
 .address-link:focus {
     color: #404BBF;
 }
+
+.hero > button {
+    cursor: pointer;
+
+}
+
+.features-title {
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 500;
+    color: #2E2F42;
+}
+
+.features-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+}
+
+.content-title {
+    font-size: 36px;
+    line-height: 1.11;
+    font-weight: 700;
+}
+
+.aside-title {
+    font-size: 36px;
+    line-height: 1.11;
+    font-weight: 700;
+}
+
+.aside-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.aside-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.footer-logo {
+    font-family: 'Raleway';
+    font-size: 18px;
+    line-height: 1.16;
+    color: #4D5AE5;
+}
+
+.footer-logo > span {
+    font-family: 'Raleway';
+    font-size: 18px;
+    line-height: 1.16;
+    color: #F4F4FD;
+}
+
+.footer-text {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #E7E9FC;
+}
+
+.footer {
+    background: #2E2F42;
+}
+
+ul {
+    list-style: none;
+}
+
+.projekt-title {
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 500;
+    color: #2E2F42;
+}
+
+.projekt-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+}
+
+.Order-Launch {
+    background: #4D5AE5;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.filter-btn {
+    background: #F4F4FD;
+    color: #4D5AE5;
+    cursor: pointer;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+    background: #404BBF;
+    color: #FFFFFF;
+
+}
+
