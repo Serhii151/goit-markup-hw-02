@@ -2,7 +2,9 @@
 /*другорядний текст #434455*/
 /*фон */
 
-
+.link {
+    
+}
 
 
 
@@ -11,8 +13,9 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    font-size: 16px;
     color: #2E2F42;
-    list-style: none;
+    background: #FFFFFF;
 }
 
 .logo > span {
@@ -46,6 +49,7 @@ body {
 }
 
 .address-link {
+    font-style: normal;
     color: #434455;
 }
 
@@ -77,6 +81,14 @@ body {
     font-size: 36px;
     line-height: 1.11;
     font-weight: 700;
+}
+
+.aside {
+    background: #F4F4FD;
+}
+
+.aside-item {
+    background: #FFFFFF;
 }
 
 .aside-title {
