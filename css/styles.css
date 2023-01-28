@@ -44,17 +44,13 @@ body {
 /*----------HEADER-------------*/
 
 .logo > span {
-    font-family: 'Raleway';
-        font-style: normal;
-        font-weight: 800;
-        font-size: 18px;
-        line-height: 1.33;
-        text-transform: uppercase;
         color: #4D5AE5;
 }
 
 .logo {
-    font-weight: 400;
+    font-family: 'Raleway';
+    font-size: 18px;
+    line-height: 1.33;
     color: #2E2F42;
     text-transform: uppercase;
 }
@@ -94,9 +90,8 @@ body {
 }
 
 .hero-title {
-    font-weight: 700;
     font-size: 56px;
-    line-height: 60px;
+    line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
@@ -127,6 +122,7 @@ body {
     line-height: 1.2;
     font-weight: 500;
     color: var(--main-title-color);
+    text-align: center;
 }
 
 .features-text {
@@ -139,9 +135,8 @@ body {
 /*----------CONTENT-------------*/
 
 .content-title {
-    font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -160,6 +155,7 @@ body {
     left: 156px;
     top: 1780px;
     background: #FFFFFF;
+    letter-spacing: normal;
 }
 
 .aside-title {
@@ -180,7 +176,6 @@ body {
 }
 
 .aside-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     color: var(--main-text-color);
@@ -193,12 +188,10 @@ body {
     font-size: 18px;
     line-height: 1.16;
     color: #4D5AE5;
+    text-transform: uppercase;
 }
 
 .footer-logo > span {
-    font-family: 'Raleway';
-    font-size: 18px;
-    line-height: 1.16;
     color: #F4F4FD;
 }
 
@@ -206,6 +199,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     color: #E7E9FC;
+    letter-spacing: 0.02em;
 }
 
 .footer {
@@ -231,6 +225,7 @@ body {
     line-height: 1.2;
     font-weight: 500;
     color: var(--main-title-color);
+    letter-spacing: 0.02em;
 }
 
 .projekt-text {
@@ -238,6 +233,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     color: #434455;
+    letter-spacing: 0.02em;
 }
 
 .filter {
@@ -248,6 +244,7 @@ body {
     background: #F4F4FD;
     color: #4D5AE5;
     cursor: pointer;
+    letter-spacing: 0.04em;
 }
 
 .filter-btn:hover,
