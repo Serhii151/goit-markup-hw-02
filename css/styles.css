@@ -2,10 +2,33 @@
 /*другорядний текст #434455*/
 /*фон */
 
-.link {
-    
+:root {
+    --main-title-color: #2E2F42;
+    --main-text-color: #434455;
+    --active-btn-color: #404BBF;
 }
 
+.link {
+    text-decoration: none;
+}
+
+.list{
+    list-style: none;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 
 
 
@@ -18,96 +41,152 @@ body {
     background: #FFFFFF;
 }
 
+/*----------HEADER-------------*/
+
 .logo > span {
     font-family: 'Raleway';
-    font-size: 18px;
-    line-height: 1.16;
-    color: #4D5AE5;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.33;
+        text-transform: uppercase;
+        color: #4D5AE5;
 }
 
 .logo {
-    font-family: 'Raleway';
-    font-size: 18px;
-    line-height: 1.16;
+    font-weight: 400;
     color: #2E2F42;
+    text-transform: uppercase;
 }
 
 .nav-link {
     font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #2E2F42;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em; 
+        color: #2E2F42;
+        color: var(--main-text-color);
 }
 
 .nav-link:hover,
 .nav-link:focus {
-    color: #404BBF;
+    color:var(--active-btn-color);
 }
 
-.nav-link:active {
-    color: #404BBF;
-}
+
+
 
 .address-link {
     font-style: normal;
-    color: #434455;
+    font-weight: 400;
+    color: var(--main-text-color)
 }
 
 .address-link:hover,
 .address-link:focus {
-    color: #404BBF;
+    color: var(--active-btn-color);
 }
 
-.hero > button {
+/*----------HERO-------------*/
+
+.hero {
+    background: #2E2F42;
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.Order-Launch {
+    width: 169px;
+    height: 56px;
+    left: 20px;
+    top: 20px;
+    background: #4D5AE5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #FFFFFF;
     cursor: pointer;
-
 }
+
+.Order-Launch:hover,
+.Order-Launch:focus{
+    background: #404BBF;
+}
+
+/*----------FEATURES-------------*/
 
 .features-title {
     font-size: 20px;
     line-height: 1.2;
     font-weight: 500;
-    color: #2E2F42;
+    color: var(--main-title-color);
 }
 
 .features-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    color: #434455;
+    color: var(--main-text-color);
 }
+
+/*----------CONTENT-------------*/
 
 .content-title {
-    font-size: 36px;
-    line-height: 1.11;
     font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--main-title-color);
 }
 
-.aside {
+/*----------ASIDE-------------*/
+
+.aside { 
     background: #F4F4FD;
 }
 
 .aside-item {
+    width: 264px;
+    height: 380px;
+    left: 156px;
+    top: 1780px;
     background: #FFFFFF;
 }
 
 .aside-title {
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
-    font-weight: 700;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--main-title-color);
 }
 
 .aside-name {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    color: var(--main-title-color);
 }
 
 .aside-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
+    color: var(--main-text-color);
 }
+
+/*----------FOOTER-------------*/
 
 .footer-logo {
     font-family: 'Raleway';
@@ -124,8 +203,6 @@ body {
 }
 
 .footer-text {
-    font-family: 'Roboto';
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     color: #E7E9FC;
@@ -135,15 +212,25 @@ body {
     background: #2E2F42;
 }
 
-ul {
-    list-style: none;
+/*----------PROJEKT-------------*/
+
+.projekt-list {
+
+}
+
+.projekt-item {
+    width: 360px;
+    height: 420px;
+    left: 156px;
+    top: 288px;
+    background: #FFFFFF
 }
 
 .projekt-title {
     font-size: 20px;
     line-height: 1.2;
     font-weight: 500;
-    color: #2E2F42;
+    color: var(--main-title-color);
 }
 
 .projekt-text {
@@ -153,10 +240,8 @@ ul {
     color: #434455;
 }
 
-.Order-Launch {
-    background: #4D5AE5;
-    color: #FFFFFF;
-    cursor: pointer;
+.filter {
+
 }
 
 .filter-btn {
