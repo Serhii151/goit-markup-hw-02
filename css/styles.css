@@ -37,7 +37,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    color: #2E2F42;
+    color: var(--main-title-color);
     background: #FFFFFF;
 }
 
@@ -50,6 +50,7 @@ body {
 .logo {
     font-family: 'Raleway';
     font-size: 18px;
+    font-weight: 800;
     line-height: 1.33;
     color: #2E2F42;
     text-transform: uppercase;
@@ -74,7 +75,8 @@ body {
 
 .address-link {
     font-style: normal;
-    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
     color: var(--main-text-color)
 }
 
@@ -98,8 +100,6 @@ body {
 }
 
 .Order-Launch {
-    width: 169px;
-    height: 56px;
     left: 20px;
     top: 20px;
     background: #4D5AE5;
@@ -108,6 +108,7 @@ body {
     line-height: 1.5;
     color: #FFFFFF;
     cursor: pointer;
+    font-family: inherit;
 }
 
 .Order-Launch:hover,
@@ -122,12 +123,10 @@ body {
     line-height: 1.2;
     font-weight: 500;
     color: var(--main-title-color);
-    text-align: center;
 }
 
 .features-text {
-    font-weight: 400;
-    font-size: 16px;
+    letter-spacing: 0.02em;
     line-height: 1.5;
     color: var(--main-text-color);
 }
@@ -150,12 +149,8 @@ body {
 }
 
 .aside-item {
-    width: 264px;
-    height: 380px;
-    left: 156px;
-    top: 1780px;
     background: #FFFFFF;
-    letter-spacing: normal;
+    
 }
 
 .aside-title {
@@ -169,15 +164,19 @@ body {
 }
 
 .aside-name {
+    text-align: center;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     color: var(--main-title-color);
+    letter-spacing: 0.02em;
 }
 
 .aside-text {
     font-size: 16px;
     line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
     color: var(--main-text-color);
 }
 
@@ -229,7 +228,6 @@ body {
 }
 
 .projekt-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     color: #434455;
@@ -241,6 +239,10 @@ body {
 }
 
 .filter-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: inherit;
     background: #F4F4FD;
     color: #4D5AE5;
     cursor: pointer;
