@@ -30,9 +30,31 @@
     overflow: hidden;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
 
+ul {
+    margin: 0;
+    padding-left: 0;
+}
 
+.container {
+    width: 1128px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
 
+.img {
+    display: block;
+}
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -42,6 +64,11 @@ body {
 }
 
 /*----------HEADER-------------*/
+
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
 
 .logo > span {
         color: #4D5AE5;
@@ -97,6 +124,7 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    margin-bottom: 48px;
 }
 
 .Order-Launch {
@@ -109,14 +137,20 @@ body {
     color: #FFFFFF;
     cursor: pointer;
     font-family: inherit;
+    margin-bottom: 188px;
 }
 
 .Order-Launch:hover,
 .Order-Launch:focus{
-    background: #404BBF;
+    background: var(--active-btn-color);
 }
 
 /*----------FEATURES-------------*/
+
+.features {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 
 .features-title {
     font-size: 20px;
@@ -133,6 +167,11 @@ body {
 
 /*----------CONTENT-------------*/
 
+.content {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .content-title {
     font-size: 36px;
     line-height: 1.11;
@@ -140,12 +179,14 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--main-title-color);
+    padding-bottom: 72px;
 }
 
 /*----------ASIDE-------------*/
 
 .aside { 
     background: #F4F4FD;
+    padding-top: 120px;
 }
 
 .aside-item {
@@ -161,6 +202,7 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--main-title-color);
+    padding-bottom: 72px;
 }
 
 .aside-name {
